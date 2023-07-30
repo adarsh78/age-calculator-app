@@ -31,7 +31,7 @@ main{
     text-transform: uppercase;
 }
 
-.date h2{
+.date h1, h2{
     font-size: 0.7rem;
     font-weight: 400;
     color: hsl(0, 1%, 40%);
@@ -114,7 +114,6 @@ span{
     margin-top: 0.5rem;
 }
 
-
 @media(min-width: 1440px) {
 
     main{
@@ -127,7 +126,7 @@ span{
         gap: 2.5rem;
     }
 
-    .date h2{
+    .date h1, h2{
         font-size: 1rem;
         margin-bottom: 0.350rem;
     }
