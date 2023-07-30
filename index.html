@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <form class="date">
+      <div class="day">
+        <h2 class="day-text">Day</h2>
+        <input type="text" id="day" placeholder="DD" minlength="1" maxlength="2" autocomplete="off"> 
+        <p class="error-msg-day">Must be a valid day</p>
+      </div>
+      
+      <div class="month">
+        <h2 class="month-text">Month</h2>
+        <input type="text" id="month" placeholder="MM" minlength="1" maxlength="2" autocomplete="off"> 
+        <p class="error-msg-month">Must be a valid month</p>
+      </div>
+      
+      <div class="year">
+        <h2 class="year-text">Year</h2>
+        <input type="text" id="year" placeholder="YYYY" minlength="4" maxlength="4" autocomplete="off"> 
+        <p class="error-msg-year">Must be in past</p>
+      </div>
+    </form>
+
+    <hr>
+    <button class="circle" type="submit">
+      <img src="assets/images/icon-arrow.svg" alt="icon-arrow">
+    </button>
+
+    <div class="result">
+      <h3><span class="totalYears">--</span> years</h3>
+      <h3><span class="totalMonths">--</span> months</h3>
+      <h3><span class="totalDays">--</span> days</h3>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
